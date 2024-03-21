@@ -27,4 +27,8 @@ if (arr5.indexOf(arr5) !==1) {
 else{
 	console.log(`${substring}the search word was not found`);
 }
-	
+let word="sevink";
+let sortword=(string)=>{
+    return string.split("").sort().join("")
+}
+console.log(sortword("sevink"));
